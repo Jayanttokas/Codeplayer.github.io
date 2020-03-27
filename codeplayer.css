@@ -1,0 +1,64 @@
+body{
+  font-family: sans-serif;
+  padding:0px;
+  margin:0px;
+}
+#header{
+  width: 100%;
+  background-color: #EEEEEE;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding:5px;
+  height: 30px;
+}
+.logo{
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 2px 5px 5px;
+}
+#button-container{
+  width: 260px;
+  margin: 0 auto;
+}
+.togglebutton{
+  float: left;
+  background-color: #FC9D9D;
+  border: 1px solid black;
+  padding:5px;
+  border-right: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+#html{
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+#output{
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-right: 1px solid grey;
+}
+.active{
+  background-color: #4F3961;
+  color: white;
+}
+.highlightbutton{
+  background-color: #F3D4D4;
+}
+textarea{
+  resize: none;
+  border-top: none;
+  border-color: grey;
+}
+.panel{
+  float: left;
+  width: 50%;
+  border-left: none;
+}
+iframe{
+  border:none;
+}
+.hidden{
+  display: none;
+}
